@@ -1,0 +1,87 @@
+﻿body {
+    font-family: Calibri;
+}
+
+.div-outer {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -72px;
+    margin-left: -217px;
+    width: 436px;
+    height: 150px;
+    /*border: 1px solid black;*/
+}
+
+.div-top {
+    width: 435px;
+    height: 22px;
+    content: url("../images/1.png");
+}
+
+.div-left {
+    float: left;
+    width: 6px;
+    height: 142px;
+    content: url("../images/3.png");
+    margin-left: 1px;
+}
+
+.div-inner {
+    float: left;
+    width: 421px;
+    /*height: 140px;*/
+}
+
+.div-right {
+    float: left;
+    width: 6px;
+    height: 142px;
+    content: url("../images/4.png");
+}
+
+.div-bottom {
+    width: 435px;
+    height: 22px;
+    content: url("../images/2.png");
+}
+
+.div-text-wrapper {
+    float: left;
+    /*height: 50px;*/
+    width: 75px;
+    margin-left: 15px;
+}
+
+.div-line-wrapper {
+    height: 30px;
+}
+
+p {
+    font-weight: bold;
+    text-align: center;
+}
+
+.p-red {
+    color: red;
+}
+
+.p-green {
+    color: green;
+}
+
+.p-invisible {
+    display: none;
+}
+
+input[type="text"] {
+    background: rgb(221, 221, 221);
+    border: 1px solid rgb(162, 162, 162);
+}
+
+input[type="button"] {
+    background: rgb(102, 204, 255);
+    border: none;
+    height: 30px;
+    margin-left: 60px;
+}

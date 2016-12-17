@@ -1,0 +1,36 @@
+﻿@model dynamic
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Home assignment</title>
+    <link href="@Url.Content("~/Content/default.css")" rel="stylesheet" />
+    <script src="~/Scripts/jquery-3.1.1.min.js"></script>
+    <script src="~/Scripts/Default.js"></script>
+</head>
+<body>
+    <div class="div-outer">
+        <div class="div-top"></div>
+        @*<br /><br/>*@
+        <div class="div-left"></div>
+        <div class="div-inner">
+            <div class="div-line-wrapper">
+                <div class="div-text-wrapper">Username</div><input type="text" id="UserNameInput" name="username" onkeyup="checkLetter(this)">
+            </div>
+
+            <div class="div-line-wrapper">
+                <div class="div-text-wrapper">Password</div><input type="text" id="PasswordInput" name="password" onkeyup="checkNumber(this)">
+            </div>
+            <input type="button" id="LoginButton" value="Log in" onclick="validate()">
+            <p id="ResultMessage" class="p-invisible"><b>Text</b></p>
+        </div>
+        <div class="div-right"></div>
+        <div class="div-bottom"></div>
+    </div>
+</body>
+</html>
